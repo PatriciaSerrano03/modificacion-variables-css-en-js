@@ -3,7 +3,25 @@ html {
 }
 body {
   min-height: 500vh;
-  background-color: #111;
+  background-color: var(--bg-color);
   font-family: sans-serif;
   color: white;
+}
+
+
+.box_scroll{
+  position: fixed;
+  width: var(--box-width);
+  height: 50px;
+  background-color:var(--primary-color);
+}
+
+.box-mouse{
+  position: fixed;
+  top: var(--top);
+  left: var(--left);
+  width: 20px;
+  height: 20px;
+  background-color: rgb(247, 142, 72);
+  pointer-events:none
 }
